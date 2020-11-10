@@ -11,24 +11,9 @@ Con este ejercicio aprenderás a:
 - Construir una aplicación Angular con dos componentes anidados.
 - Construir una aplicación Angular usando iteradores anidados.
 
-## Requisitos
+## Requisitos de entrega
 
-- [Fork este repositorio](https://guides.github.com/activities/forking/).
-- Clona tu repositorio en tu directorio local `~/code/labs`.
-
-## Entrega
-
-Después de completar el ejercicio ejecuta los siguientes comandos desde tu consola de Git local:
-
-```bash
-$ git add .
-$ git commit -m "done"
-$ git push origin master
-```
-
-Desde **tu repositorio github** crea un *pull request* de tu rama master a la rama master del repositorio original.
-
-En el campo nombre del mensaje añade tu nombre, o el de ambos compañeros.
+Pasar la url del ejercicio por slack.
 
 ## Introducción
 
@@ -37,6 +22,14 @@ En este ejercicio trabajarás con Angular por primera vez. El objetivo es trabaj
 ### Código inicial
 
 En estas aplicaciones no hay código inicial. Tendrás que crearlo desde cero.
+
+## Iteración 1: Crea el workspace
+
+Crea un workspace y añade tres aplicaciones con estos nombres: 
+
+- photo-album
+- blog
+- nba-champions
 
 ## Iteración 1: Photo Album
 
@@ -53,11 +46,9 @@ Fácil, no? Añade estilos a la página para darle tu toque personal al álbum d
 Ahora crearás un artículo de un blog con comentarios. Constará de dos componentes diferentes:
 
 - El componente `MainComponent` contendrá el artículo, compuesto de un título(`title`), una imagen(`image`), y una descripción (`description`).
-- El componente `CommentsComponent`, que contendrá varios comentarios (puedes añadir los que quieras).
+- El componente `CommentsComponent`, que contendrá varios comentarios (puedes añadir los que quieras) irá __anidado dentro del componente principal__.
 
 Al final de los comentarios, añadirás un formulario de comentario para darle un toque real al artículo (no es necesario que funcione).
-
-Lo primero que harás será generar el proyecto desde el `Angular CLI`.
 
 ![](https://imgur.com/hiZ4hay.png)
 
