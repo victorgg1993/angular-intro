@@ -23,7 +23,7 @@ En este ejercicio trabajarás con Angular por primera vez. El objetivo es trabaj
 
 En estas aplicaciones no hay código inicial. Tendrás que crearlo desde cero.
 
-## Iteración 1: Crea el workspace
+## Iteración 0: Crea el workspace
 
 Crea un workspace y añade tres aplicaciones con estos nombres: 
 
